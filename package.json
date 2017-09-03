@@ -1,0 +1,11 @@
+{
+  "name": "konst",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jeremistadler/Konst.git",
+  "author": "Jeremi Stadler <stadler.jeremi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "jekyll serve"
+  }
+}
