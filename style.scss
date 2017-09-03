@@ -18,7 +18,7 @@ html {
 
 body {
 	background: #EDEAE8;
-  font: 18px/1.4 $quicksand;
+  font: 18px/1.4 $systemFont;
   color: $darkGray;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $quicksand;
+  font-family: $systemFont;
   color: $darkerGray;
   font-weight: bold;
 
@@ -110,7 +110,7 @@ img {
 }
 
 p {
-  font-family: $quicksand;
+  font-family: $systemFont;
 }
 
 // Specify the color of the selection
