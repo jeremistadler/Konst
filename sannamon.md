@@ -3,4 +3,6 @@ layout: home
 title: Sannamon
 permalink: /sannamon/
 ---
-Sannamon
+
+
+![]({{site.baseurl}}/images/contact.jpg)
