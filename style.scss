@@ -133,12 +133,14 @@ p {
   font-size: 36px;
   color: #333333;
   font-family: 'Antic Slab', serif;
+  z-index: 1;
 }
 
 .menu .nav {
-   margin-top: 100px;
+   margin-top: 82px;
    border-top: 10px solid white;
    padding-top: 30px;
+   margin-bottom: 35px;
    display: flex;
    justify-content: space-around;
    flex-direction: row;
@@ -149,6 +151,7 @@ p {
   font-size: 14px;
   color: #5D5D5D;
   font-family: 'Rock Salt', cursive;
+      text-align: center;
 }
 
 
@@ -157,4 +160,15 @@ p {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+}
+
+.container img {
+  padding: 15px;
+  display: inline-block;
+  width: 49%;
+
+  @include mobile {
+    display: block;
+    width: 100%;
+  }
 }
