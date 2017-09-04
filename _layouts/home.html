@@ -5,18 +5,18 @@
 
     {% include meta.html %}
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css?v=9" />
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <script type="text/javascript" src="/scripts/bg.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css?v=0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Antic+Slab|Rock+Salt">
   </head>
 
   <body>
     <header class="menu">
-      <nav>
-        <a href="{{ site.baseurl }}/">Konst</a>
-        <a href="{{ site.baseurl }}/sannamon">Sannamon</a>
-        <a href="{{ site.baseurl }}/mission">Mission</a>
+      <span class="pagename">{{ page.title }}</span>
+      <span class="pagename">Bertil Engqvist</span>
+      <nav class="nav">
+        <a class="item" href="{{ site.baseurl }}/">Konst</a>
+        <a class="item" href="{{ site.baseurl }}/mission">Mission</a>
+        <a class="item" href="{{ site.baseurl }}/sannamon">Sannamon</a>
       </nav>
     </header>
 

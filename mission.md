@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Mission
-permalink: /mission/
+title: 'Mission'
+permalink: '/mission/'
 ---
 
 Mission

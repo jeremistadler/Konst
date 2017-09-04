@@ -22,13 +22,6 @@ body {
   color: $darkGray;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: $systemFont;
   color: $darkerGray;
@@ -121,4 +114,47 @@ p {
 ::selection {
   color: $black;
   background: $lightGray;
+}
+
+
+.menu .pagename {
+  position: absolute;
+  left: 24px;
+  top: 10px;
+  font-size: 64px;
+  color: #E0E0E0;
+  font-family: 'Rock Salt', cursive;
+}
+
+.menu .ownername {
+  position: absolute;
+  left: 120px;
+  top: 62px;
+  font-size: 36px;
+  color: #333333;
+  font-family: 'Antic Slab', serif;
+}
+
+.menu .nav {
+   margin-top: 100px;
+   border-top: 10px solid white;
+   padding-top: 30px;
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+}
+
+.menu .item {
+  flex: 1;
+  font-size: 14px;
+  color: #5D5D5D;
+  font-family: 'Rock Salt', cursive;
+}
+
+
+.container {
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 0 10px;
+  width: 100%;
 }
