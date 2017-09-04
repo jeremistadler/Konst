@@ -1,7 +1,6 @@
 ---
 layout: home
 title: 'Konst'
-permalink: '/konst/'
 ---
 
 ![]({{site.baseurl}}/images/spegelbild.jpg)
