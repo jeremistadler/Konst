@@ -137,14 +137,23 @@ p {
   z-index: 1;
 }
 
+.menu .whiteline {
+  height: 7px;
+  background: white;
+  top: 30px;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
 .menu .nav {
-   margin-top: 82px;
-   border-top: 10px solid white;
-   padding-top: 30px;
-   margin-bottom: 35px;
-   display: flex;
-   justify-content: space-around;
-   flex-direction: row;
+  margin: auto;
+  margin-top: 125px;
+  margin-bottom: 74px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  max-width: 720px;
 }
 
 .menu .item {
