@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 'Konst'
+title: Konst
 ---
 
 ![]({{site.baseurl}}/images/spegelbild.jpg)
