@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Sannamon
-permalink: /sannamon/
+permalink: "/sannamon/"
 ---
 
 
